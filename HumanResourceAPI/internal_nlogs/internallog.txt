@@ -1,0 +1,650 @@
+2025-12-16 23:43:11.5510 Debug Message Template Auto Format enabled
+2025-12-16 23:43:11.6117 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6143 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2025-12-16 23:43:11.6143 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6143 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-12-16 23:43:11.6143 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6143 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-12-16 23:43:11.6143 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6143 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-12-16 23:43:11.6143 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2025-12-16 23:43:11.6143 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-16 23:43:11.6143 Trace ParseRulesElement
+2025-12-16 23:43:11.6292 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-16 23:43:11.6292 Debug AutoReload Config File Monitor refreshing after configuration changed
+2025-12-16 23:43:11.6292 Debug AutoReload Config File Monitor starting
+2025-12-16 23:43:11.6292 Debug Start watching file-filter 'nlog.config' in directory: D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI
+2025-12-16 23:43:11.6292 Debug --- NLog configuration dump ---
+2025-12-16 23:43:11.6292 Debug Targets:
+2025-12-16 23:43:11.6292 Debug FileTarget(Name=logfile)
+2025-12-16 23:43:11.6429 Debug Rules:
+2025-12-16 23:43:11.6429 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2025-12-16 23:43:11.6429 Debug --- End of NLog configuration dump ---
+2025-12-16 23:43:11.6429 Trace FindReachableObject<System.Object>:
+2025-12-16 23:43:11.6429 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2025-12-16 23:43:11.6429 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2025-12-16 23:43:11.6429 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2025-12-16 23:43:11.6602 Trace   Scanning Property FileName 'D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\${shortdate}_logfile.log' NLog.Layouts.Layout
+2025-12-16 23:43:11.6602 Trace   Scanning SimpleLayout 'D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\${shortdate}_logfile.log'
+2025-12-16 23:43:11.6602 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-12-16 23:43:11.6602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6602 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2025-12-16 23:43:11.6602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6602 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2025-12-16 23:43:11.6602 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2025-12-16 23:43:11.6602 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-12-16 23:43:11.6602 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-12-16 23:43:11.6602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6602 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-12-16 23:43:11.6602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6602 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-12-16 23:43:11.6602 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2025-12-16 23:43:11.6602 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2025-12-16 23:43:11.6602 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2025-12-16 23:43:11.6602 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${message}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${literal}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${level}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${literal}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${longdate}
+2025-12-16 23:43:11.6751 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2025-12-16 23:43:11.6751 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6751 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2025-12-16 23:43:11.6751 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-12-16 23:43:11.6751 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2025-12-16 23:43:11.6751 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6751 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2025-12-16 23:43:11.6751 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6751 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${literal}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${shortdate}
+2025-12-16 23:43:11.6751 Trace Initializing Layout Renderer: ${literal}
+2025-12-16 23:43:11.6751 Trace Initializing D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\${shortdate}_logfile.log
+2025-12-16 23:43:11.6751 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2025-12-16 23:43:11.6751 Trace Scanning SimpleLayout 'D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\${shortdate}_logfile.log'
+2025-12-16 23:43:11.6751 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2025-12-16 23:43:11.6751 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6751 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2025-12-16 23:43:11.6751 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2025-12-16 23:43:11.6751 Trace Initializing FileTarget(Name=logfile)
+2025-12-16 23:43:11.6751 Trace FindReachableObject<NLog.Layouts.Layout>:
+2025-12-16 23:43:11.6751 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2025-12-16 23:43:11.6751 Trace  Scanning Property FileName 'D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\${shortdate}_logfile.log' NLog.Layouts.Layout
+2025-12-16 23:43:11.6751 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2025-12-16 23:43:11.6751 Trace FileTarget(Name=logfile) has 2 layouts
+2025-12-16 23:43:11.6945 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-16 23:44:13.5851 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2025-12-16 23:44:13.5851 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2025-12-16 23:44:13.5851 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2025-12-16 23:44:13.5851 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2025-12-16 23:44:13.5851 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2025-12-16 23:44:13.5851 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2025-12-16 23:44:13.6174 Debug FileTarget(Name=logfile): Verify directory and creating writer to file: D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\logs\2025-12-16_logfile.log
+2025-12-16 23:46:43.4227 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-16 23:46:43.4355 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-16 23:46:43.4594 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:29:50.1655 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:29:50.1766 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:29:50.1933 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:29:52.9789 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:29:52.9789 Info LogFactory has been disposed.
+2025-12-17 23:30:21.1253 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:30:21.1338 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:30:21.1471 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:30:22.4230 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:30:22.4284 Info LogFactory has been disposed.
+2025-12-17 23:31:55.2442 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:31:55.2537 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:31:55.2537 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:31:55.8286 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:31:55.8331 Info LogFactory has been disposed.
+2025-12-17 23:33:11.7367 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:33:11.7446 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:33:11.7582 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:33:12.7906 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:33:12.7906 Info LogFactory has been disposed.
+2025-12-17 23:54:59.7096 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:54:59.7238 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:54:59.7424 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:55:00.5119 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:55:00.5119 Info LogFactory has been disposed.
+2025-12-17 23:55:32.2214 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:55:32.2309 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:55:32.2504 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-17 23:55:33.2047 Info AppDomain Shutting down. LogFactory closing...
+2025-12-17 23:55:33.2099 Info LogFactory has been disposed.
+2025-12-17 23:58:45.6958 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-17 23:58:45.7226 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-17 23:58:45.7428 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:41:07.3665 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:41:07.3665 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:41:07.3897 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:41:09.5376 Info AppDomain Shutting down. LogFactory closing...
+2025-12-18 23:41:09.5505 Info LogFactory has been disposed.
+2025-12-18 23:41:41.7066 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:41:41.7066 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:41:41.7349 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:41:43.9336 Info AppDomain Shutting down. LogFactory closing...
+2025-12-18 23:41:43.9336 Info LogFactory has been disposed.
+2025-12-18 23:42:20.1282 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:42:20.1282 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:42:20.1547 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:42:20.9564 Info AppDomain Shutting down. LogFactory closing...
+2025-12-18 23:42:20.9564 Info LogFactory has been disposed.
+2025-12-18 23:42:34.0097 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:42:34.0097 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:42:34.0313 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:42:34.7303 Info AppDomain Shutting down. LogFactory closing...
+2025-12-18 23:42:34.7303 Info LogFactory has been disposed.
+2025-12-18 23:55:23.5912 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:55:23.6039 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:55:23.6237 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:56:20.5780 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:56:20.5897 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:56:20.6186 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:56:43.7831 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:56:43.7954 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:56:43.8176 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:57:03.3903 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:57:03.4060 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:57:03.4362 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-18 23:58:23.8500 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-18 23:58:23.8638 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-18 23:58:23.8968 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:01:17.3600 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:01:17.3781 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:01:17.4167 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:02:59.1733 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:02:59.1925 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:02:59.2200 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:04:14.0513 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:04:14.0700 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:04:14.1008 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:04:29.3523 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:04:29.3641 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:04:29.3851 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:05:34.4678 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:05:34.4837 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:05:34.5104 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:06:07.9142 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:06:07.9259 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:06:07.9476 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:06:39.8213 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:06:39.8352 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:06:39.8598 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:07:06.4206 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:07:06.4372 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:07:06.4709 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-19 00:07:32.8642 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-19 00:07:32.8806 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-19 00:07:32.9244 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:05:46.9925 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:05:47.0165 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:05:47.0617 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:07:01.6246 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:07:01.6425 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:07:01.6728 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:11:52.0055 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:11:52.0153 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:11:52.0331 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:12:40.2849 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:12:40.3001 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:12:40.3211 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:13:02.4647 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:13:02.4776 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:13:02.5020 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:13:27.5543 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:13:27.5670 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:13:27.5955 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:14:10.6231 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:14:10.6388 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:14:10.6668 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:14:55.6535 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:14:55.6669 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:14:55.6926 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:15:23.0187 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:15:23.0354 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:15:23.0605 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:16:16.8553 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:16:16.8695 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:16:16.8902 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:17:03.7350 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:17:03.7520 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:17:03.7853 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:24:48.3756 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:24:48.3886 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:24:48.4054 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:25:20.8368 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:25:20.8546 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:25:20.8796 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:27:07.5630 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:27:07.5795 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:27:07.6372 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:51:19.2636 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:51:19.2735 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:51:19.2894 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:52:57.6199 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:52:57.6392 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:52:57.6665 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 22:53:20.0429 Info AppDomain Shutting down. LogFactory closing...
+2025-12-20 22:53:20.0615 Info LogFactory has been disposed.
+2025-12-20 22:53:24.0421 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 22:53:24.0584 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 22:53:24.0799 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:03:20.1017 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:03:20.1144 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:03:20.1438 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:06:56.6237 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:06:56.6394 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:06:56.6687 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:13:18.7202 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:13:18.7294 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:13:18.7457 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:13:21.1861 Info AppDomain Shutting down. LogFactory closing...
+2025-12-20 23:13:21.1943 Info LogFactory has been disposed.
+2025-12-20 23:14:33.8033 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:14:33.8033 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:14:33.8271 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:14:34.6505 Info AppDomain Shutting down. LogFactory closing...
+2025-12-20 23:14:34.6505 Info LogFactory has been disposed.
+2025-12-20 23:14:40.1551 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:14:40.1677 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:14:40.1864 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:22:06.8160 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:22:06.8375 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:22:06.8759 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:25:55.2714 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:25:55.2857 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:25:55.3060 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:32:39.1502 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:32:39.1616 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:32:39.1830 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:35:53.4377 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:35:53.4509 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:35:53.4670 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:40:45.4132 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:40:45.4291 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:40:45.4509 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:50:07.4082 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:50:07.4210 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:50:07.4421 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:51:16.4758 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:51:16.4878 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:51:16.5077 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:53:01.8052 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:53:01.8142 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:53:01.8300 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-20 23:56:48.9718 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-20 23:56:48.9821 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-20 23:56:48.9988 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 00:00:54.1448 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 00:00:54.1554 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 00:00:54.1760 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 22:45:34.6572 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 22:45:34.6703 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 22:45:34.6959 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 22:49:02.9952 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 22:49:03.0108 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 22:49:03.0476 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 22:56:01.9214 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 22:56:01.9388 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 22:56:01.9738 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:03:09.3588 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:03:09.3688 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:03:09.3851 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:08:54.1803 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:08:54.1907 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:08:54.2247 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:11:15.1283 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:11:15.1373 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:11:15.1515 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:14:35.1725 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:14:35.1821 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:14:35.1981 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:15:47.1423 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:15:47.1512 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:15:47.1674 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-21 23:16:22.5261 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-21 23:16:22.5404 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-21 23:16:22.5735 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:02:47.3514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:02:47.3904 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:02:47.4472 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:04:30.7230 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:04:30.7361 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:04:30.7615 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:05:39.0854 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:05:39.0995 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:05:39.1251 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:26:16.6622 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:26:16.6775 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:26:16.7056 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:27:07.1874 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:27:07.2049 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:27:07.2358 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:28:53.4291 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:28:53.4409 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:28:53.4668 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:47:51.4350 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:47:51.4489 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:47:51.4706 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:48:58.0231 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:48:58.0356 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:48:58.0580 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:51:09.2485 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:51:09.2592 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:51:09.2780 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:52:24.1099 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:52:24.1240 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:52:24.1445 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:53:09.6139 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:53:09.6298 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:53:09.6642 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:54:16.0624 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:54:16.0624 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:54:16.0912 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:57:41.1529 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:57:41.1662 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:57:41.1846 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-22 23:58:09.9296 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 23:58:09.9455 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 23:58:09.9700 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-23 00:00:48.4155 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-23 00:00:48.4302 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-23 00:00:48.4560 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-23 00:18:13.0325 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-23 00:18:13.0499 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-23 00:18:13.0717 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-23 00:19:20.1754 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-23 00:19:20.1931 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-23 00:19:20.2245 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:21:27.6032 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:21:27.6349 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:21:27.6940 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:22:09.6487 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:22:09.6639 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:22:09.6879 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:22:34.5426 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:22:34.5532 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:22:34.5760 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:23:18.6005 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:23:18.6165 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:23:18.6482 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:24:02.3677 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:24:02.3819 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:24:02.4018 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:24:20.4127 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:24:20.4242 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:24:20.4442 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:24:38.9781 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:24:38.9926 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:24:39.0137 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:25:17.6757 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:25:17.6899 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:25:17.7179 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:25:41.8077 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:25:41.8077 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:25:41.8364 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:32:14.8598 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:32:14.8751 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:32:14.8943 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-24 23:51:40.0389 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-24 23:51:40.0496 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-24 23:51:40.0683 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:14:24.9529 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:14:24.9625 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:14:24.9761 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:14:28.1045 Info AppDomain Shutting down. LogFactory closing...
+2025-12-25 00:14:28.1045 Info LogFactory has been disposed.
+2025-12-25 00:14:46.7185 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:14:46.7294 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:14:46.7440 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:14:48.0341 Info AppDomain Shutting down. LogFactory closing...
+2025-12-25 00:14:48.0401 Info LogFactory has been disposed.
+2025-12-25 00:17:14.3069 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:17:14.3250 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:17:14.3408 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:20:07.9333 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:20:07.9504 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:20:07.9709 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:33:24.0805 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:33:24.0999 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:33:24.1462 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:34:49.2572 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:34:49.2707 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:34:49.2958 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:39:50.1200 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:39:50.1503 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:39:50.1895 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 00:42:17.6194 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 00:42:17.6349 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 00:42:17.6663 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 22:46:48.5754 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 22:46:48.6294 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 22:46:48.6632 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 23:01:17.2641 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 23:01:17.2753 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 23:01:17.2941 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 23:04:47.5066 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 23:04:47.5242 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 23:04:47.5531 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-25 23:30:51.5902 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-25 23:30:51.6039 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-25 23:30:51.6315 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:17:27.3109 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:17:27.3263 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:17:27.3501 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:21:25.0886 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:21:25.1028 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:21:25.1250 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:22:39.1207 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:22:39.1343 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:22:39.1587 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:30:04.7499 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:30:04.7727 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:30:04.7958 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:31:00.8064 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:31:00.8179 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:31:00.8320 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:36:23.1099 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:36:23.1231 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:36:23.1416 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:37:20.9414 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:37:20.9578 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:37:20.9885 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:38:32.0878 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:38:32.0974 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:38:32.1187 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:39:39.7251 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:39:39.7358 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:39:39.7515 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:40:15.2174 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:40:15.2312 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:40:15.2500 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:41:36.8045 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:41:36.8167 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:41:36.8373 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:45:46.4305 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:45:46.4403 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:45:46.4569 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:47:44.9394 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:47:44.9515 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:47:44.9695 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:48:24.2364 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:48:24.2503 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:48:24.2689 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:49:43.7983 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:49:43.8126 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:49:43.8353 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:53:39.4416 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:53:39.4555 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:53:39.4745 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:54:31.0460 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:54:31.0580 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:54:31.0761 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 22:55:15.1687 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 22:55:15.1832 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 22:55:15.2045 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 23:38:27.3458 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 23:38:27.3633 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 23:38:27.4023 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 23:38:35.1800 Info AppDomain Shutting down. LogFactory closing...
+2025-12-26 23:38:35.1984 Info LogFactory has been disposed.
+2025-12-26 23:39:26.3655 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 23:39:26.3797 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 23:39:26.4069 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 23:39:27.9188 Info AppDomain Shutting down. LogFactory closing...
+2025-12-26 23:39:27.9389 Info LogFactory has been disposed.
+2025-12-26 23:54:25.4464 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 23:54:25.4611 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 23:54:25.4866 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-26 23:59:35.3148 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-26 23:59:35.3243 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-26 23:59:35.3410 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:01:43.6072 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:01:43.6192 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:01:43.6407 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:02:14.1082 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:02:14.1211 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:02:14.1409 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:03:31.8573 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:03:31.8675 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:03:31.8852 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:06:26.9802 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:06:26.9923 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:06:26.9923 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:11:39.8945 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:11:39.9050 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:11:39.9202 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:12:39.0520 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:12:39.0627 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:12:39.0818 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 00:13:51.5908 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 00:13:51.6018 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 00:13:51.6171 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:01:39.5519 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:01:39.5799 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:01:39.6220 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:02:45.9924 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:02:46.0061 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:02:46.0211 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:06:56.7090 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:06:56.7206 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:06:56.7416 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:10:04.8567 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:10:04.8755 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:10:04.8920 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:23:25.2109 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:23:25.2242 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:23:25.2242 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:24:40.3764 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:24:40.3902 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:24:40.4152 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:28:53.3608 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:28:53.3841 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:28:53.4008 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:33:57.6827 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:33:57.7070 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:33:57.7236 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 16:35:02.0748 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 16:35:02.0919 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 16:35:02.1163 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 21:59:32.5880 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 21:59:32.6026 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 21:59:32.6251 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:05:34.0591 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:05:34.0696 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:05:34.0929 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:18:23.9235 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:18:23.9392 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:18:23.9707 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:19:09.1245 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:19:09.1367 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:19:09.1549 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:19:34.4634 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:19:34.4753 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:19:34.5063 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:19:59.9887 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:20:00.0005 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:20:00.0214 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:44:40.5207 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:44:40.5350 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:44:40.5548 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:45:38.5592 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:45:38.5726 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:45:38.5935 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:46:18.9141 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:46:18.9322 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:46:18.9674 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:46:36.7942 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:46:36.8035 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:46:36.8193 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:49:24.8340 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:49:24.8488 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:49:24.8732 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-27 22:50:36.9991 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-27 22:50:37.0109 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-27 22:50:37.0252 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:16:28.9917 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:16:29.0009 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:16:29.0174 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:21:43.1622 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:21:43.1713 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:21:43.1880 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:22:09.6483 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:22:09.6633 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:22:09.6833 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:22:41.5671 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:22:41.5772 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:22:41.5919 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:23:04.2722 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:23:04.2832 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:23:04.3019 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:24:12.6822 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:24:12.6924 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:24:12.7096 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:25:59.0788 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:25:59.0884 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:25:59.1057 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:29:36.4129 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:29:36.4223 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:29:36.4371 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:30:17.7484 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:30:17.7576 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:30:17.7727 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:31:08.3056 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:31:08.3154 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:31:08.3324 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:33:58.4273 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:33:58.4436 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:33:58.4620 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:34:11.0192 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:34:11.0283 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:34:11.0438 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:37:16.1914 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:37:16.2008 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:37:16.2155 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:38:44.0989 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:38:44.1099 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:38:44.1299 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:39:55.1649 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:39:55.1768 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:39:55.2012 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 00:40:37.5005 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 00:40:37.5357 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 00:40:37.5517 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 22:27:32.0489 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 22:27:32.0780 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 22:27:32.1401 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-28 23:16:55.6427 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-28 23:16:55.6525 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-28 23:16:55.6755 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-30 23:36:21.6601 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-30 23:36:21.6846 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-30 23:36:21.7196 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-30 23:39:15.9520 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-30 23:39:15.9674 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-30 23:39:16.0025 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
+2025-12-30 23:46:43.4886 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-30 23:46:43.5008 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-30 23:46:43.5221 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=D:\C-SHAP\Roadmap\HumanResourceAPI\HumanResourceAPI\nlog.config
